@@ -1,9 +1,9 @@
-name: deployToProd
+name: deployToDevelop
 
 on:
   push:
     branches:
-      - main
+      - develop
 
 jobs:
   build-and-deploy:
@@ -32,7 +32,7 @@ jobs:
           aws-region: ap-northeast-2
 
       - name: Upload to S3
-        run: aws s3 sync ./dist s3://vite-vue-template
+        run: aws s3 sync ./dist s3://vite-vue-template-develop
 
       - name: Invalidate CloudFront Cache
-        run: aws cloudfront create-invalidation --distribution-id E3FT2KDICYOKLF --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id EKV0EV8KTNB5R --paths "/*"
