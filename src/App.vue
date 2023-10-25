@@ -2,8 +2,8 @@
   <nav class="p-[40px] h-[60px] FR AC JSB border-b-[1px] border-b-[#adbac7]">
     <img :src="logo" class="h-[50px] rounded-full" />
     <div class="FR AC JE">
-      <router-link to="/career" class="mr-[20px]"
-        ><p class="pointer text-[20px] font-bold">Career</p>
+      <router-link to="/career" class="mr-[20px]">
+        <p class="pointer text-[20px] font-bold">Career</p>
       </router-link>
       <router-link to="/" class="mr-[20px]">
         <p class="pointer text-[20px] font-bold">Portfolio</p>
