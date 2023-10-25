@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="section">
     <p>{{ count }}</p>
     <button @click="count++">count 증가</button>
     <button @click="count--">count 감소</button>
@@ -21,4 +21,8 @@ export default defineComponent({
   }
 })
 </script>
-<style scoped></style>
+<style scoped>
+.section {
+  padding: 40px;
+}
+</style>
