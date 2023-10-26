@@ -1,18 +1,20 @@
 <template>
-  <nav class="p-[40px] h-[60px] FR AC JSB border-b-[1px] border-b-[#adbac7]">
-    <img :src="logo" class="h-[50px] rounded-full" />
-    <div class="FR AC JE">
-      <router-link to="/career" class="mr-[20px]">
+  <nav class="p-[40px] h-[60px] FR AC JSB border-b-[1px] border-b-[#bec4cd]">
+    <router-link to="/">
+      <img :src="logo" class="h-[50px] rounded-full" />
+    </router-link>
+    <div class="FR AC JC">
+      <router-link to="/career" class="mr-5">
         <p class="pointer text-[20px] font-bold">Career</p>
       </router-link>
-      <router-link to="/" class="mr-[20px]">
+      <router-link to="/portfolio">
         <p class="pointer text-[20px] font-bold">Portfolio</p>
       </router-link>
-
-      <router-link to="/career"><p class="pointer text-[20px] font-bold">Resume</p></router-link>
     </div>
   </nav>
-  <RouterView />
+  <div class="FR AC JC">
+    <RouterView />
+  </div>
 </template>
 
 <script lang="ts">

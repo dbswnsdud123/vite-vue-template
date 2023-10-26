@@ -1,5 +1,5 @@
 <template>
-  <div class="section">456</div>
+  <div class="section"></div>
 </template>
 
 <script lang="ts">
@@ -18,6 +18,6 @@ export default defineComponent({
 <style scoped>
 .section {
   padding: 40px;
-  width: 1200px;
+  width: 1200;
 }
 </style>
