@@ -1,10 +1,15 @@
 <template>
   <div class="section">
     <div class="FR mb-[60px]">
-      <img :src="profile" class="h-[200px] rounded-[20px]" />
+      <img :src="profile" class="h-[220px] rounded-[20px]" />
       <div class="FC JSB ml-[40px]">
         <p class="text-[40px] text-[#bd871f] font-bold">윤준영</p>
+
         <div class="FC">
+          <div class="FR mb-[10px]">
+            <v-icon color="#bec4cd" class="mr-[15px]">mdi-pencil-box-outline</v-icon>
+            <p>아주대학교 소프트웨어 전공 학사</p>
+          </div>
           <div class="FR mb-[10px]">
             <v-icon color="#bec4cd" class="mr-[15px]">mdi-email-outline</v-icon>
             <a href="dbswnsdud12336@gmail.com">dbswnsdud12336@gmail.com</a>
@@ -14,7 +19,7 @@
             <a href="https://github.com/dbswnsdud123">https://github.com/dbswnsdud123</a>
           </div>
           <div class="FR">
-            <v-icon color="#bec4cd" class="mr-[15px]">mdi-pencil-box-outline</v-icon>
+            <v-icon color="#bec4cd" class="mr-[15px]">mdi-bookmark-outline</v-icon>
             <a href="https://groot-dev.tistory.com/">https://groot-dev.tistory.com/</a>
           </div>
         </div>
@@ -50,8 +55,8 @@
             <p class="text-[28px] font-bold mr-12 mb-4">Front-end</p>
             <div class="FR">
               <div class="FC mr-10">
-                <li class="mb-1">React</li>
                 <li class="mb-1">Vue.js</li>
+                <li class="mb-1">React</li>
                 <li class="mb-1">Next.js</li>
               </div>
               <div class="FC mr-10">
@@ -169,21 +174,7 @@ export default defineComponent({
     const { testCommonStoreState, ReadFile } = useCommon()
     const count = ref(1)
 
-    const items = ref([
-      {
-        title: 'Item #1',
-        value: 1
-      },
-      {
-        title: 'Item #2',
-        value: 2
-      },
-      {
-        title: 'Item #3',
-        value: 3
-      }
-    ])
-    return { count, testCommonStoreState, ReadFile, profile, items }
+    return { count, testCommonStoreState, ReadFile, profile }
   }
 })
 </script>
