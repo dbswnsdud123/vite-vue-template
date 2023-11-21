@@ -1,3 +1,3 @@
-export interface CommonApis {
-  ReadFile: (url: string) => Promise<any>;
-}
+// export interface CommonApis {
+//   ReadFile: (url: string) => Promise<any>;
+// }

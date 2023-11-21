@@ -35,20 +35,18 @@
             <p class="text-[28px] font-bold mr-12 mb-4">Front-end</p>
             <div class="FR">
               <div class="FC mr-10">
-                <li class="mb-1">Vue.js</li>
                 <li class="mb-1">React</li>
-                <li class="mb-1">Next.js</li>
-              </div>
-              <div class="FC mr-10">
+                <li class="mb-1">Vue.js</li>
                 <li class="mb-1">Electron</li>
-                <li class="mb-1">Tailwind</li>
-                <li class="mb-1">Typescript</li>
               </div>
               <div class="FC mr-10">
                 <li class="mb-1">HTML/CSS</li>
                 <li class="mb-1">Javascript</li>
                 <li class="mb-1">Typescript</li>
-                <li class="mb-1">Python</li>
+              </div>
+              <div class="FC mr-10">
+                <li class="mb-1">Tailwind</li>
+                <li class="mb-1">Vuetify</li>
               </div>
             </div>
           </div>
@@ -56,8 +54,7 @@
             <p class="text-[28px] font-bold mr-12 mb-4">Back-end</p>
             <div class="FR">
               <div class="FC mr-10">
-                <li class="mb-1">Node</li>
-                <li class="mb-1">Mysql</li>
+                <li class="mb-1">Node(express)</li>
               </div>
             </div>
           </div>
@@ -65,13 +62,10 @@
             <p class="text-[28px] font-bold mb-4">ETC.</p>
             <div class="FR">
               <div class="FC mr-10">
-                <li class="mb-1">AWS</li>
-                <li class="mb-1">Docker</li>
-                <li class="mb-1">Github action</li>
-              </div>
-              <div class="FC mr-10">
                 <li class="mb-1">Git</li>
                 <li class="mb-1">Github</li>
+                <li class="mb-1">AWS S3</li>
+                <li class="mb-1">AWS Cloudfront</li>
               </div>
               <div class="FC">
                 <li class="mb-1">Jira</li>
@@ -113,7 +107,7 @@
               게임의 편의성을 제공하는
               <b class="text-[#bd871f]">데스크톱 어플리케이션을 제안 및 개발</b>하게 되었습니다.
               다른 어플리케이션들과 달리 UI를 게임에 따라다니게 하고, 자동으로 전적 검색을 하는 등의
-              UI/UX로 차별점을 두었고 이를 통해 현재는 MAU 100,000 이상의 프로그램이 되었으며, PC방
+              UI/UX로 차별점을 두었고 이를 통해 현재는 MAU 300,000 이상의 프로그램이 되었으며, PC방
               업체와 협업하여 전국 PC방에 프로그램 설치를 진행 중입니다.
             </p>
             <p>
@@ -127,7 +121,7 @@
           <v-divider vertical class="mx-3"></v-divider>
           <div class="FC w-[300px]">
             <span class="text-[20px] font-bold mb-1">FE</span>
-            <p class="mb-5">Electron, Vue.js, Vuex, Vuetify, TypeScript</p>
+            <p class="mb-5">Electron, React, Recoil, TypeScript, TailwindCSS</p>
             <span class="text-[20px] font-bold mb-1">Deployment</span>
             <p>AWS S3, AWS Cloudfront</p>
           </div>
@@ -173,9 +167,9 @@
           <v-divider vertical class="mx-3"></v-divider>
           <div class="FC w-[300px]">
             <span class="text-[20px] font-bold mb-1">FE</span>
-            <p class="mb-5">Nuxt.js, Vuex, TypeScript, Tailwind CSS</p>
+            <p class="mb-5">React, Recoil, TypeScript, Tailwind CSS</p>
             <span class="text-[20px] font-bold mb-1">Deployment</span>
-            <p>Docker, Github Action, AWS ECS, AWS EC2, AWS Cloudfront, AWS Route53</p>
+            <p>AWS S3, AWS Cloudfront, AWS Route53</p>
           </div>
         </div>
       </div>
