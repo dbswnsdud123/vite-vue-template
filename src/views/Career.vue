@@ -161,7 +161,7 @@
           </span>
         </div>
         <div class="FC">
-          <p class="text-[28px] font-bold mb-2">GGQ Pro 웹 페이지 (프로 게임 구단 계약 성사)</p>
+          <p class="text-[28px] font-bold mb-2">GGQ Pro 웹 페이지</p>
           <p class="text-[14px] opacity-50 mb-1">리그오브레전드 프로 구단 경기 기록 및 분석 서비스 (Frontend Lead)</p>
           <p class="text-[14px] opacity-50 mb-5">프로 게임 구단 계약 성사</p>
           <li class="mb-1">League Client API 도입으로 게임 분석 시간 약 30분 -> 4분으로 단축</li>
